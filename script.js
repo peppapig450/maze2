@@ -194,11 +194,11 @@ var body = document.querySelectorAll('body');
         var finishY = 0 * cellSize + (0 + 1) * cellSpacing
         game.beginPath();
         game.arc(finishX + (cellSize / 2), finishY + (cellSize / 2), cellSize / 2, 0, 2 * Math.PI, false);
-        game.fillStyle = "green";
+        game.fillStyle = "yellow";
         game.fill();
         game.beginPath();
         game.arc(playerX + (cellSize / 2), playerY + (cellSize / 2), cellSize / 2, 0, 2 * Math.PI, false);
-        game.fillStyle = "black";
+        game.fillStyle = "red";
         game.fill();
     }
 
